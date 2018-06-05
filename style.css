@@ -1,0 +1,242 @@
+*{
+	font-family:arial;
+}
+
+body{
+	background-color:#C9C8C4;
+}
+
+#root{
+	margin:auto;
+	max-width:900px;
+	display: table;
+	
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+}
+
+#header{
+	padding:5pt;
+	background-color:white;
+	background: linear-gradient(#575757,#131313);
+}
+#watchlist{
+	color:yellow;
+}
+
+.fancyLink{
+	color: white;
+	text-decoration:none;
+}
+
+.fancyLink:hover{
+	text-decoration: underline;
+}
+
+#upper{
+	padding:10pt;
+	 vertical-align:center;
+}
+
+#upper{
+	
+}
+
+#lower{
+	height:50px;
+	display:inline-table;
+	width: 100%;
+	padding-left: 10pt;
+}
+
+#signin{
+	vertical-align: super;
+}
+
+.navigation{
+	display:inline-block;
+	vertical-align:middle;
+	width: 15%;
+	height: 34pt;
+	
+	background-color: rgba(0,0,0,0);
+	border: 0px;
+	
+	font-size:11pt;
+	text-align:center;
+}
+
+.bordered{
+	border-left: 1px solid white;
+}
+
+.navigation p{
+	vertical-align:middle;
+}
+
+
+.navigation a{
+	
+	vertical-align:middle;
+}
+
+.dropdown{
+	display:none;
+	position:absolute;
+	
+	height:100pt;
+	width:150pt;
+	
+	background-color:black;
+	color: white;
+	
+	z-index:1;
+	
+	border:1px solid black;
+
+}
+
+#moviesDD{
+	
+}
+
+#celebsDD{
+	margin-left:90pt;
+}
+
+#newsDD{
+	margin-left:180pt;
+}
+
+#watchlistDD{
+	margin-left:270pt;
+}
+
+#logins{
+	display:inline;
+	height:25pt;
+	padding:10pt;
+	width:5%
+}
+
+#logins a{
+	font-size:10pt;
+}
+
+button img{
+	height: 1em;
+}
+
+#searchbar{
+	width:270pt;
+}
+
+#catbar{
+	width:80pt;
+}
+
+#fblogo{
+	height:1.5em;
+}
+
+.socialMedLogo{
+	height:1.70em;
+}
+#righthead{
+	 display: inline;
+}
+#righthead img{
+	vertical-align:middle;
+}
+
+
+#logo{
+	width:10%;
+}
+
+#rightHeader{
+	float:right;	
+	width:90%;
+}
+
+#main{
+	float:left;
+	width: 65%;
+}
+
+#posters{
+	background-color:#333333;
+	padding: 10pt;
+}
+
+#postersBoxBigger a{
+	color:#54C9FF;
+}
+
+.poster{
+	position:relative;
+	display:inline-block;
+	width: 30%;
+	margin: 5pt;
+}
+
+.poster img{
+	width:100%;
+}
+
+.info{
+	color: white;
+	position:absolute;
+	text-align:center;
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	bottom:0px;
+}
+
+.info p{
+	display:none;
+}
+
+.availibility{
+	text-align:right;
+	font-size:9pt;
+}
+
+table{
+	width: 100%;
+}
+
+.movieTitle{
+	text-align:left;
+}
+
+.movieTitle li{
+	max-width:120pt;
+}
+
+#sidebar{
+	float:right;
+	padding: 1%;
+	width: 32.5%;
+	background-color: LightCyan;
+}
+
+#sidebar ul{
+	list-style-image: url('images/listIcon.png');
+}
+
+.ladder{
+	background-color: red;
+	padding:10pt;
+}
+
+#articles{
+	background-color:white;
+	padding: 10pt;
+}
+
+#articles video{
+	display: block;
+	width:75%;
+	margin: auto;
+}

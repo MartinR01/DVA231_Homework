@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Super awesome website - Home</title>
+		<script src="jquery-3.2.1.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script src="scripts.js"></script>
+		
+	</head>
+	<body>
+		<div id="root">
+			<!-- Header - includes logo, searchbar and categories -->
+			<div id="header">
+				<!-- logo -->
+				<img src="images/kfc.png" id="logo"/>
+				<!-- the rest -->
+				<div id="rightHeader">
+					<div id="upper">
+						<input type="text" name="search" id="searchbar"placeholder="Search..."/>
+						<input type="text" name="catergory" id="catbar"placeholder="Search categories..."/>
+						<button type="button"><img src="images/search_icon.png"/></button>
+						<div id="righthead">	<img src="images/imdbpro.png"/> 
+							<a href="" class="bordered fancyLink">PLS help</a>
+							<img src="images/face.png" class="socialMedLogo"/>
+							<img src="images/birdthing.png" class="socialMedLogo"/>
+							<img src="images/insta.png" class="socialMedLogo"/>
+							</div>
+					</div>
+					<div id="lower">
+								<button id="moviesBT" class="navigation bordered">
+									<a href="" class="fancyLink">Movies, TV & Showtimes</a>
+								</button>
+								<div id="moviesDD" class="dropdown">
+									<ul>
+										<li>New Movies</li>
+										<li>TV series</li>
+										<li>Cinema deals</li>
+									</ul>
+								</div>
+								
+								<button id="celebsBT" class="navigation bordered">
+									<a href="" class="fancyLink">Celebs, Events & Photos</a>
+								</button>
+								<div id="celebsDD" class="dropdown">Some awesome content</div>
+								
+								<button id="newsBT" class="navigation bordered">
+									<a href="" class="fancyLink">News & Community</a>
+								</button>
+								<div id="newsDD" class="dropdown">Some awesome content</div>
+								
+								<button id="watchlistBT" class="navigation bordered">
+									<a 	href="" id="watchlist" class="fancyLink">Watchlist</a>
+								</button>
+								<div id="watchlistDD" class="dropdown">Some awesome content</div>
+						<div id="logins" class="bordered">
+							<img src="images/fblogin.png" id="fblogo"/>
+							<a href="" id="signin" class="fancyLink">Other sign in options</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Main section -->
+			<div id="main">
+				<!-- Movie posters -->
+				<div id="posters">
+					<div id="postersBoxBigger">
+						<div id="postersBox">
+							<div class="slide">
+								<div class="poster">
+									<div class="info">
+										<h3>test</h3>
+										<p>More info</p>
+									</div>
+									<img src="images/posters/got.jpg"/>
+								</div>
+								<div class="poster">
+									<div class="info">
+										<h3>test</h3>
+										<p>More info</p>
+									</div>
+									<img src="images/posters/pulp_fiction.jpg"/>
+								</div>
+								<div class="poster">
+									<div class="info">
+										<h3>test</h3>
+										<p>More info</p>
+									</div>
+									<img src="images/posters/revenant.jpg"/>
+								</div>
+							</div>
+							<div class="slide">
+								<div class="poster">
+									<div class="info">
+										<h3>test</h3>
+										<p>More info</p>
+									</div>
+									<img src="images/posters/Harry_Potter.jpg"/>
+								</div>
+								<div class="poster">
+									<div class="info">
+										<h3>test</h3>
+										<p>More info</p>
+									</div>
+									<img src="images/posters/Lord_of_the_Rings.jpg"/>
+								</div>
+								<div class="poster">
+									<div class="info">
+										<h3>test</h3>
+										<p>More info</p>
+									</div>
+									<img src="images/posters/The_Martian.jpg"/>
+								</div>
+							</div>
+						</div>
+						<a href="">Browse trailers >></a>
+					</div>
+				</div>
+				
+				<!-- Rest filled with articles -->
+				<div id="articles">
+					<h1>New Harry Potter trailer out!</h1>
+					<p>Kids' favorite books are going Hollywood! Get ready to experience Hogwarts like never before</p>
+					<video src ="video/Harry_Potter_Trailer.mp4" controls/>
+				</div>
+				
+			</div>
+			
+			<!-- Ladders, etc here -->
+			<div id="sidebar">
+				<div id="ladder">
+					<h2>Opening this week</h2>
+					<ul>
+						<table>
+							<tr>
+								<td class="movieTitle">
+									<li title="test">Ninja Turtles!</li>
+								</td>
+								<td class="availibility">Unlimited turtles!</td>
+							</tr>
+							<tr>
+								<td class="movieTitle">
+									<li title="test">Fast and Furious 21: this is the last one, we promise!</li>
+								</td>
+								<td class="availibility">Limited</td>
+							</tr>
+							<tr>
+								<td class="movieTitle">
+									<li title="test">Generic action movie</li>
+								</td>
+								<td class="availibility">Limited</td>
+							</tr>
+							<tr>
+								<td class="movieTitle">
+									<li title="test">another generic action movie</li>
+								</td>
+								<td class="availibility">Limited</td>
+							</tr>
+							<tr>
+								<td class="movieTitle">
+									<li title="test">generic action movie but with bad jokes</li>
+								</td>
+								<td class="availibility">Limited</td>
+							</tr>
+							<tr>
+								<td class="movieTitle">
+									<li title="test">I give up on making these titles: the Movie</li>
+								</td>
+								<td class="availibility">Limited</td>
+							</tr>
+						</table>
+						
+						
+						
+						
+						
+					</ul>
+					<a href="">See more opening this week >></a>	
+				</div>
+				<div id="ladder">
+					<h2>Opening next week</h2>
+					<ul>
+						<li title="test">Ninja Turtles 2!</li>
+						<li title="test">Fast and Slow 21: this is the last one, we promise!</li>
+						<li title="test">Generic action movie</li>
+						<li title="test">another generic action movie</li>
+						<li title="test">generic action movie but with bad jokes</li>
+						<li title="test">I give up on making these titles: the Movie</li>
+					</ul>
+					<a href="">See more opening this week >></a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
